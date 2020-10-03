@@ -43,6 +43,8 @@ Due to working environment, XAMPP and similar "out of the box solutions" wouldn'
 
 ```bash
 ├── README.md # -> this file, contains general info and commands
+├── RNWA_projektni_zadaci_Boban.pdf # -> document containing project tasks description
+├── -------------------------------------------------------------------------------------------------------------
 ├── docker-compose.yml # -> docker-compose file for definition and running of services required
 ├── site.conf # -> Configuration file for NGINX web server & FastCGI setup
 ├── mysql # -> helper directory, containing MySQL script for creation and initial data seed of hr database
