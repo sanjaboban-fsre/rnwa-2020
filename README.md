@@ -43,20 +43,25 @@ Due to working environment, XAMPP and similar "out of the box solutions" wouldn'
 
 ```bash
 ├── README.md # -> this file, contains general info and commands
-├── RNWA_Departments_API.postman_collection.json # -> Postman collection containing requests for REST task P.Z.1
-├── RNWA_Jobs_API.postman_collection.json # -> Postman collection containing requests for REST task P.Z.2
 ├── docker-compose.yml # -> docker-compose file for definition and running of services required
-├── hw_ajax_jquery # -> homework Ajax + jQuery task
+├── site.conf # -> Configuration file for NGINX web server & FastCGI setup
 ├── mysql # -> helper directory, containing MySQL script for creation and initial data seed of hr database
+├── -------------------------------------------------------------------------------------------------------------
+├── index.html and style.css # -> homework HTML+CSS Responsive Web Site
+├── hw_ajax_jquery # -> homework Ajax + jQuery task
+├── -------------------------------------------------------------------------------------------------------------
+├── ws_1 # Project Web Service task 1
+├── ws_2 # Project Web Service task 2
+├── -------------------------------------------------------------------------------------------------------------
 ├── rest_1 # -> Project REST task P.Z.1
 ├── rest_1_basic_auth # -> Project REST task P.Z.1, with basic auth
 ├── rest_1_oauth2 # -> Project REST task P.Z.1, with Google OAuth2
 ├── rest_2 # -> Project REST task P.Z.2
 ├── rest_2_basic_auth # -> Project REST task P.Z.2, with basic auth
 ├── rest_2_oauth2 # -> Project REST task P.Z.2, with Google OAuth2
-├── site.conf # -> Configuration file for NGINX web server & FastCGI setup
-├── ws_1 # Project Web Service task 1
-└── ws_2 # Project Web Service task 2
+├── -------------------------------------------------------------------------------------------------------------
+├── RNWA_Departments_API.postman_collection.json # -> Postman collection containing requests for REST task P.Z.1
+└── RNWA_Jobs_API.postman_collection.json # -> Postman collection containing requests for REST task P.Z.2
 ```
 
 ## Notes
