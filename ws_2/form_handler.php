@@ -1,6 +1,6 @@
 <?php
 $html = "</br></br>";
-$conn = new mysqli('mysql_rnwa_projects', 'root', 'root', 'hr');
+$conn = new mysqli('mysql', 'root', 'root', 'hr');
 
 if ($conn -> connect_errno) {
     $html .= "Failed to connect to MySQL: " . $conn -> connect_error;

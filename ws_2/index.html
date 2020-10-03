@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="../style.css" rel="stylesheet" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
@@ -14,11 +15,32 @@
 </head>
 
 <body>
-    </br>
-    <div class="container">
-        <h1>Departments Overview</h1>
+
+    <div class="rnwa-row rnwa-menu-row">
+        <div class="rnwa-menu">
+            <ul>
+                <li class="li-col-4 li-col-s-12">
+                    <a href="../hw_ajax_jquery/index.html">DZ Ajax+jQuery</a>
+                </li>
+                <li class="li-col-4 li-col-s-12">
+                    <a href="../ws_1/index.html">Web Servis 1</a>
+                </li>
+                <li class="li-col-4 li-col-s-12">
+                    <a href="../ws_2/index.html">Web Servis 2</a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div class="container">
+
+    <a href="../index.html">
+        <div class="rnwa-header">
+            <h1>RNWA</h1>
+        </div>
+    </a>
+
+    </br>
+    <div class="container rnwa-container">
+        <h4>Departments Overview</h4>
         </br>
         <div class="col-md-10">
             <form id="form" onsubmit="return false">
@@ -38,6 +60,12 @@
         <div class="result">
             <!-- This will contain result from PHP -->
         </div>
+    </div>
+    </br>
+    </br>
+
+    <div class="rnwa-footer">
+        <p><b>Author:</b> Sanja Boban | <b>Copyright:</b> FSRE 2020</p>
     </div>
 </body>
 <script>

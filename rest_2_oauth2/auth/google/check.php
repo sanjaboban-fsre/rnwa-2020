@@ -14,7 +14,7 @@ if (isset($_GET['code'])) {
         $_SESSION['logged_in'] = true;
         $_SESSION['access_token'] = $data["access_token"];
 
-        header("Location: ./../../../api/v1/jobs.php");
+        header("Location: rest_2_oauth2 ./../../../api/v1/jobs.php");
 
     } catch(\Exception $e) {
         echo $e->getMessage();

@@ -1,6 +1,6 @@
 <?php
 class Connection {
-    private $host = 'mysql_rnwa_projects';
+    private $host = 'mysql';
 	private $account = 'root';
 	private $password = 'root';
 	private $database = 'hr';

@@ -1,0 +1,28 @@
+version: "3"
+services:
+  mysql:
+    image: mysql:5.7
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    ports:
+      - 3306:3306
+    volumes:
+      - ./docker_data/mysql:/var/lib/mysql
+      - ./mysql/mysql_seed.sql:/home/mysql_seed.sql
+  nginx:
+    image: nginx:latest
+    ports:
+      - 10000:80
+    volumes:
+      - ./:/code
+      - ./site.conf:/etc/nginx/conf.d/default.conf
+    links:
+      - php
+    depends_on:
+      - mysql
+  php:
+    image: petekaik/php-fpm-mysqli
+    volumes:
+      - ./:/code
+    depends_on:
+      - mysql

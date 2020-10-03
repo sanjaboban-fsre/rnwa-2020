@@ -7,4 +7,4 @@ if (isset($_SESSION['access_token'])) {
     unset($_SESSION['access_token']);
 }
 session_destroy();
-header("Location: ./../../api/v1/jobs.php");
+header("Location: rest_2_oauth2 ./../../api/v1/jobs.php");
